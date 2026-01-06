@@ -1,0 +1,17 @@
+/* Light Mode */
+--background: white
+--foreground: gray-900
+--card: white
+--primary: emerald-600
+
+/* Dark Mode */
+--background: gray-900
+--foreground: white
+--card: gray-800
+--primary: emerald-500
+
+/* Sepia Mode */
+--background: #F7F3ED
+--foreground: #5C3F31
+--card: #F3ECE5
+--primary: #784F34

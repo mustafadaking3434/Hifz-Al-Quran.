@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+  }
+
+  .sepia {
+    --background: 45 20% 96%;
+    --foreground: 25 25% 20%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  .sepia {
+    background-color: #f4f1e8;
+    color: #3d352a;
+  }
+
+  .sepia .bg-white {
+    background-color: #f9f6ed !important;
+  }
+
+  .sepia .bg-gray-50 {
+    background-color: #f4f1e8 !important;
+  }
+
+  .sepia .bg-gray-100 {
+    background-color: #ede8d8 !important;
+  }
+
+  .sepia .bg-gray-200 {
+    background-color: #e6dfc9 !important;
+  }
+
+  .sepia .text-gray-800 {
+    color: #3d352a !important;
+  }
+
+  .sepia .text-gray-700 {
+    color: #5a4f41 !important;
+  }
+
+  .sepia .text-gray-600 {
+    color: #7a6b58 !important;
+  }
+
+  .sepia .text-gray-500 {
+    color: #9a876f !important;
+  }
+
+  .sepia .text-gray-400 {
+    color: #baa386 !important;
+  }
+
+  .sepia .border-gray-200 {
+    border-color: #e6dfc9 !important;
+  }
+
+  .sepia .border-gray-300 {
+    border-color: #d9cfb8 !important;
+  }
+
+  .sepia .border-gray-700 {
+    border-color: #a69575 !important;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
